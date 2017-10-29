@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMU", "VMU\VMU.vcxproj", "{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMU_Logic", "VMU_Logic\VMU_Logic.vcxproj", "{04084EF9-219C-4413-9C9D-7DACE4635152}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMU_Display", "VMU_Display\VMU_Display.vcxproj", "{DC13F8E0-F002-428E-9DB7-1D6CF3405864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release Integration|Win32 = Release Integration|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}.Debug|Win32.Build.0 = Debug|Win32
+		{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}.Release Integration|Win32.ActiveCfg = Release|Win32
+		{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}.Release Integration|Win32.Build.0 = Release|Win32
+		{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}.Release|Win32.ActiveCfg = Release|Win32
+		{EE175E9F-876C-4FAA-AFC8-33FF315B9E97}.Release|Win32.Build.0 = Release|Win32
+		{04084EF9-219C-4413-9C9D-7DACE4635152}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04084EF9-219C-4413-9C9D-7DACE4635152}.Debug|Win32.Build.0 = Debug|Win32
+		{04084EF9-219C-4413-9C9D-7DACE4635152}.Release Integration|Win32.ActiveCfg = Release Integration|Win32
+		{04084EF9-219C-4413-9C9D-7DACE4635152}.Release Integration|Win32.Build.0 = Release Integration|Win32
+		{04084EF9-219C-4413-9C9D-7DACE4635152}.Release|Win32.ActiveCfg = Release|Win32
+		{04084EF9-219C-4413-9C9D-7DACE4635152}.Release|Win32.Build.0 = Release|Win32
+		{DC13F8E0-F002-428E-9DB7-1D6CF3405864}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC13F8E0-F002-428E-9DB7-1D6CF3405864}.Debug|Win32.Build.0 = Debug|Win32
+		{DC13F8E0-F002-428E-9DB7-1D6CF3405864}.Release Integration|Win32.ActiveCfg = Release Integration|Win32
+		{DC13F8E0-F002-428E-9DB7-1D6CF3405864}.Release Integration|Win32.Build.0 = Release Integration|Win32
+		{DC13F8E0-F002-428E-9DB7-1D6CF3405864}.Release|Win32.ActiveCfg = Release|Win32
+		{DC13F8E0-F002-428E-9DB7-1D6CF3405864}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Integration|Win32">
+      <Configuration>Release Integration</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04084EF9-219C-4413-9C9D-7DACE4635152}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SITEC_SDK_DIR_80)\include;$(SITEC_SDK_DIR_80)\atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(SITEC_SDK_DIR)\include</IncludePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SITEC_SDK_DIR_80)\atlmfc\lib;$(SITEC_SDK_DIR_80)\lib</ReferencePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SITEC_SDK_DIR_80)\lib;$(SITEC_SDK_DIR_80)\atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(SITEC_SDK_DIR)\lib</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SITEC_SDK_DIR_80)\atlmfc\src\mfc;$(SITEC_SDK_DIR_80)\atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SITEC_SDK_DIR_80)\include;$(SITEC_SDK_DIR_80)\atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(MSBuildToolsPath32);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ExcludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">$(SITEC_SDK_DIR_80)\include;$(SITEC_SDK_DIR_80)\atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(SITEC_SDK_DIR)\include</IncludePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">$(SITEC_SDK_DIR_80)\atlmfc\lib;$(SITEC_SDK_DIR_80)\lib</ReferencePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">$(SITEC_SDK_DIR_80)\lib;$(SITEC_SDK_DIR_80)\atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(SITEC_SDK_DIR)\lib</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">$(SITEC_SDK_DIR_80)\atlmfc\src\mfc;$(SITEC_SDK_DIR_80)\atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">$(SITEC_SDK_DIR_80)\include;$(SITEC_SDK_DIR_80)\atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(MSBuildToolsPath32);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ExcludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SITEC_SDK_DIR_80)\include;$(SITEC_SDK_DIR_80)\atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(SITEC_SDK_DIR)\include</IncludePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SITEC_SDK_DIR_80)\atlmfc\lib;$(SITEC_SDK_DIR_80)\lib</ReferencePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SITEC_SDK_DIR_80)\lib;$(SITEC_SDK_DIR_80)\atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(SITEC_SDK_DIR)\lib</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SITEC_SDK_DIR_80)\atlmfc\src\mfc;$(SITEC_SDK_DIR_80)\atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SITEC_SDK_DIR_80)\include;$(SITEC_SDK_DIR_80)\atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(MSBuildToolsPath32);$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ExcludePath>
+    <TargetExt>.slc</TargetExt>
+    <TargetName>MSG_$(ProjectName)</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SITEC_RESOURCE_DIR)\LogicComponents\Debug\</OutDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SITEC_RESOURCE_DIR)\LogicComponents\</OutDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">Release Integration\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">$(SITEC_RESOURCE_DIR)\LogicComponents\</OutDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>VMU_Logic_EXPORTS;WIN32;_DEBUG;_WINDOWS;COMPONENT_EXPORTS;_AFXEXT;_CRT_NON_CONFORMING_SWPRINTFS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SITEC_SDK_DIR)/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SimApi.lib;UtilLib.lib;Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SITEC_SDK_DIR)/Lib/Debug/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(SITEC_RESOURCE_DIR)\LogicComponents\Debug\MSG_VMU_Logic.slc</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(SITEC_RESOURCE_DIR)\LogicComponents\Debug\MSG_VMU_Logic.pdb</ProgramDatabaseFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(SITEC_SDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>VMU_Logic_EXPORTS;WIN32;NDEBUG;_WINDOWS;COMPONENT_EXPORTS;_AFXEXT;_CRT_NON_CONFORMING_SWPRINTFS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SITEC_SDK_DIR)/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <Optimization>MinSpace</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SimApi.lib;UtilLib.lib;Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SITEC_SDK_DIR)/Lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(SITEC_RESOURCE_DIR)\LogicComponents\MSG_VMU_Logic.slc</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(SITEC_RESOURCE_DIR)\LogicComponents\MSG_VMU_Logic.pdb</ProgramDatabaseFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(SITEC_SDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>VMU_Logic_EXPORTS;RELEASE_INTEGRATION;WIN32;NDEBUG;_WINDOWS;COMPONENT_EXPORTS;_AFXEXT;_CRT_NON_CONFORMING_SWPRINTFS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SITEC_SDK_DIR)/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>SimApi.lib;UtilLib.lib;Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SITEC_SDK_DIR)/Lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(SITEC_RESOURCE_DIR)\LogicComponents\MSG_VMU_Logic.slc</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(SITEC_RESOURCE_DIR)\LogicComponents\MSG_VMU_Logic.pdb</ProgramDatabaseFile>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(SITEC_SDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\VMU_Logic.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="res\FileBuilder.h" />
+    <ClInclude Include="res\FileVersion.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="VMU_Logic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="VMU_Logic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VMU_Logic.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

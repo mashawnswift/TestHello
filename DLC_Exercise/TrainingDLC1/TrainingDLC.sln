@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrainingDLC", "TrainingDLC\TrainingDLC.vcxproj", "{086C576B-DD55-48C4-A3AA-CC309C09391A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release Integration|Win32 = Release Integration|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086C576B-DD55-48C4-A3AA-CC309C09391A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{086C576B-DD55-48C4-A3AA-CC309C09391A}.Debug|Win32.Build.0 = Debug|Win32
+		{086C576B-DD55-48C4-A3AA-CC309C09391A}.Release Integration|Win32.ActiveCfg = Release Integration|Win32
+		{086C576B-DD55-48C4-A3AA-CC309C09391A}.Release Integration|Win32.Build.0 = Release Integration|Win32
+		{086C576B-DD55-48C4-A3AA-CC309C09391A}.Release|Win32.ActiveCfg = Release|Win32
+		{086C576B-DD55-48C4-A3AA-CC309C09391A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

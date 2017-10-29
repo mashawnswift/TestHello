@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>$(SITEC_BIN_DIR)\debug\Simulation.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>/f {Mission File Name}</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>$(SITEC_BIN_DIR)\debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>$(SITEC_BIN_DIR)\Simulation.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>/f {Mission File Name}</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>$(SITEC_BIN_DIR)</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Integration|Win32'">
+    <LocalDebuggerCommand>$(SITEC_BIN_DIR)\Simulation.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>/f {Mission File Name}</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>$(SITEC_BIN_DIR)</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>

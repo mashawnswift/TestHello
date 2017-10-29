@@ -1,0 +1,673 @@
+<TFD><Data Type="37" Version="5.2"><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblVersion">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_3">
+					<s:AttributeType name="FldVersionCounter" rs:number="1" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblVersion" rs:basecolumn="FldVersionCounter" rs:keycolumn="true" rs:autoincrement="true">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldVersionName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblVersion" rs:basecolumn="FldVersionName">
+						<s:datatype dt:type="string" dt:maxLength="50"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldVersionDescription" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblVersion" rs:basecolumn="FldVersionDescription">
+						<s:datatype dt:type="string" dt:maxLength="50"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldVersionDate" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblVersion" rs:basecolumn="FldVersionDate">
+						<s:datatype dt:type="dateTime" rs:dbtype="variantdate" dt:maxLength="16" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldVersionCounter="18" FldVersionName="5.3" FldVersionDescription="Simulation New Generation"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblControls">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1">
+					<s:AttributeType name="FldControlName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldControlName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldControlGraphicObject" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldControlGraphicObject">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPresetViewName" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldPresetViewName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMinX" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldMinX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMinY" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldMinY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMinZ" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldMinZ">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMaxX" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldMaxX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMaxY" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldMaxY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMaxZ" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldMaxZ">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldControlName="Cessna172" FldControlGraphicObject="cessna172\cessna172.3ds" FldPresetViewName="Pilot" FldMinX="-0.5" FldMinY="-0.29899999" FldMinZ="-0.287" FldMaxX="0.5" FldMaxY="0.50099999" FldMaxZ="0.61299998"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="tblControlPresetViews">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_5">
+					<s:AttributeType name="FldControlName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldControlName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPresetViewName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldPresetViewName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsAttachedToSubPart" rs:number="3" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldIsAttachedToSubPart">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldUpdateLocationBySubpart" rs:number="4" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldUpdateLocationBySubPart">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldSubpartName" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldSubpartName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldX" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldY" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldZ" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldZ">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPitch" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldPitch">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldRoll" rs:number="10" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldRoll">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldYaw" rs:number="11" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldYaw">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFov" rs:number="12" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldFov">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsStation" rs:number="13" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldIsStation">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldStationName" rs:number="14" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldStationName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsAffectedByAmbientLight" rs:number="15" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldIsAffectedByAmbientLight">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldAmbientColor" rs:number="16" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="tblControlPresetViews" rs:basecolumn="FldAmbientColor">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldControlName="Cessna172" FldPresetViewName="Calibration" FldIsAttachedToSubPart="False" FldUpdateLocationBySubpart="False" FldSubpartName="" FldX="4.2289998E-3" FldY="0.242284" FldZ="-0.143425" FldPitch="-30" FldRoll="0" FldYaw="0" FldFov="0" FldIsStation="False" FldStationName="NONE" FldIsAffectedByAmbientLight="False" FldAmbientColor="16777215"/>
+				<z:row FldControlName="Cessna172" FldPresetViewName="Pilot" FldIsAttachedToSubPart="True" FldUpdateLocationBySubpart="False" FldSubpartName="PILOT" FldX="0" FldY="0" FldZ="0" FldPitch="-20" FldRoll="0" FldYaw="0" FldFov="45" FldIsStation="True" FldStationName="Pilot" FldIsAffectedByAmbientLight="False" FldAmbientColor="16777215"/>
+				<z:row FldControlName="Cessna172" FldPresetViewName="Instructor" FldIsAttachedToSubPart="True" FldUpdateLocationBySubpart="False" FldSubpartName="INSTRUCTOR" FldX="0" FldY="0" FldZ="0" FldPitch="-20" FldRoll="0" FldYaw="0" FldFov="0" FldIsStation="True" FldStationName="Instructor" FldIsAffectedByAmbientLight="False" FldAmbientColor="16777215"/>
+				<z:row FldControlName="Cessna172" FldPresetViewName="Panel" FldIsAttachedToSubPart="False" FldUpdateLocationBySubpart="False" FldSubpartName="" FldX="-0.2" FldY="0" FldZ="-0.30000001" FldPitch="-20" FldRoll="0" FldYaw="-10" FldFov="45" FldIsStation="False" FldStationName="NONE" FldIsAffectedByAmbientLight="False" FldAmbientColor="16777215"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblControlPanels">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_7">
+					<s:AttributeType name="FldControlName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldControlName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPanelName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControlPanels" rs:basecolumn="FldPanelName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPanelWidth" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControlPanels" rs:basecolumn="FldPanelWidth">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPanelHeight" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControlPanels" rs:basecolumn="FldPanelHeight">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldControlName="Cessna172" FldPanelName="PANEL_BOT" FldPanelWidth="0" FldPanelHeight="0"/>
+				<z:row FldControlName="Cessna172" FldPanelName="PANEL_TOP" FldPanelWidth="0" FldPanelHeight="0"/>
+				<z:row FldControlName="Cessna172" FldPanelName="RADIO" FldPanelWidth="0" FldPanelHeight="0"/>
+				<z:row FldControlName="Cessna172" FldPanelName="Stby_Comp" FldPanelWidth="0" FldPanelHeight="0"/>
+				<z:row FldControlName="Cessna172" FldPanelName="TRIM_PANEL" FldPanelWidth="0" FldPanelHeight="0"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblPanelGauges">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_9">
+					<s:AttributeType name="FldControlName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControls" rs:basecolumn="FldControlName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPanelName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblControlPanels" rs:basecolumn="FldPanelName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeName" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeNameExt" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldGaugeNameExt">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeX" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldGaugeX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeY" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldGaugeY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeHeight" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldGaugeHeight">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeWidth" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldGaugeWidth">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsOnMenu" rs:number="9" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldIsOnMenu">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMenuName" rs:number="10" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldMenuName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldScaleFactorX" rs:number="11" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldScaleFactorX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldScaleFactorY" rs:number="12" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldScaleFactorY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldScaleRegions" rs:number="13" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldScaleRegions">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldProjectToInfinity" rs:number="14" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblPanelGauges" rs:basecolumn="FldProjectToInfinity">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldControlName="Cessna172" FldPanelName="PANEL_BOT" FldGaugeName="Cessna172_IgnitionPanel" FldGaugeNameExt="BOT" FldGaugeX="-0.24557599" FldGaugeY="-7.7852459" FldGaugeHeight="109.659" FldGaugeWidth="780.13702" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="1" FldScaleFactorY="1" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="PANEL_TOP" FldGaugeName="Cessna172_AnalogGauges" FldGaugeNameExt="TOP" FldGaugeX="-7.8999998E-5" FldGaugeY="6.5900001E-4" FldGaugeHeight="300" FldGaugeWidth="500" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="1" FldScaleFactorY="1" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="PANEL_TOP" FldGaugeName="Watch" FldGaugeNameExt="TOP" FldGaugeX="80" FldGaugeY="200" FldGaugeHeight="63.673061" FldGaugeWidth="63.738419" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="1" FldScaleFactorY="1" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="PANEL_TOP" FldGaugeName="Cessna172_ArtificialHorizonFlat" FldGaugeNameExt="TOP" FldGaugeX="231.5305" FldGaugeY="190.2744" FldGaugeHeight="114.2073" FldGaugeWidth="108.1765" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="0.89999998" FldScaleFactorY="0.89999998" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="RADIO" FldGaugeName="KX155ASTO Com Radio" FldGaugeNameExt="COM1" FldGaugeX="-4.3736701" FldGaugeY="176.63901" FldGaugeHeight="65.242493" FldGaugeWidth="169.897" FldIsOnMenu="False" FldMenuName="COM 1" FldScaleFactorX="1" FldScaleFactorY="1" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="RADIO" FldGaugeName="KX155ASTO Com Radio" FldGaugeNameExt="COM2" FldGaugeX="-3.96208" FldGaugeY="122.03" FldGaugeHeight="122.3631" FldGaugeWidth="175.0462" FldIsOnMenu="True" FldMenuName="COM1 &amp; COM2" FldScaleFactorX="1" FldScaleFactorY="1" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="RADIO" FldGaugeName="ForStaticTexts" FldGaugeNameExt="COM" FldGaugeX="0" FldGaugeY="0" FldGaugeHeight="200" FldGaugeWidth="200" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="0" FldScaleFactorY="0" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="RADIO" FldGaugeName="KT76CTSO Transponder" FldGaugeNameExt="COM" FldGaugeX="-4.0712438" FldGaugeY="37.52356" FldGaugeHeight="56.465191" FldGaugeWidth="173.4418" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="0" FldScaleFactorY="0" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="Stby_Comp" FldGaugeName="Cessna172_Compass" FldGaugeNameExt="COMP" FldGaugeX="-5.01614" FldGaugeY="0" FldGaugeHeight="0" FldGaugeWidth="5.01614" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="1" FldScaleFactorY="1" FldScaleRegions="False" FldProjectToInfinity="False"/>
+				<z:row FldControlName="Cessna172" FldPanelName="TRIM_PANEL" FldGaugeName="Cesnna172_Trimmer" FldGaugeNameExt="TRIM" FldGaugeX="0.653166" FldGaugeY="-9.6818953" FldGaugeHeight="166.4727" FldGaugeWidth="79.998642" FldIsOnMenu="False" FldMenuName="" FldScaleFactorX="0" FldScaleFactorY="0" FldScaleRegions="False" FldProjectToInfinity="False"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblGauges">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_10">
+					<s:AttributeType name="FldGaugeName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges"/>
+				<z:row FldGaugeName="Watch"/>
+				<z:row FldGaugeName="Cessna172_ArtificialHorizonFlat"/>
+				<z:row FldGaugeName="KX155ASTO Com Radio"/>
+				<z:row FldGaugeName="ForStaticTexts"/>
+				<z:row FldGaugeName="KT76CTSO Transponder"/>
+				<z:row FldGaugeName="Cessna172_Compass"/>
+				<z:row FldGaugeName="Cesnna172_Trimmer"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblGaugeRegions">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_11">
+					<s:AttributeType name="FldGaugeName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldRegionName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldRegionName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsMouseRegion" rs:number="3" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldIsMouseRegion">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsHighLight" rs:number="4" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldIsHighLight">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldCursorRelativePath" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldCursorRelativePath">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldX" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldY" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldWidth" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldWidth">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldHeight" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldHeight">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldTooltip" rs:number="10" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldTooltip">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Starter" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="61.251259" FldY="35.962959" FldWidth="30.678129" FldHeight="58.471729" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ParkingBrake_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="72.844193" FldY="10.5846" FldWidth="0" FldHeight="0" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ParkingBrake_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="67.486397" FldY="16.517599" FldWidth="0" FldHeight="0" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_R" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="118.3504" FldY="-55.353069" FldWidth="25.18334" FldHeight="17.695379" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="17.166389" FldY="29.706511" FldWidth="30.553921" FldHeight="64.567917" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_L" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="101.2108" FldY="-54.0341" FldWidth="11.66584" FldHeight="17.14814" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_Both" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="66.685944" FldY="-53.890259" FldWidth="24.576229" FldHeight="18.06385" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FuelPump_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="133.23869" FldY="59.571049" FldWidth="15" FldHeight="27.723221" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FuelPump_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="133.808" FldY="30.4062" FldWidth="15" FldHeight="29.4328" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="BatOn" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="114.804" FldY="92.256287" FldWidth="19.63216" FldHeight="22.431881" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="BatOff" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="113.0993" FldY="32.513008" FldWidth="16.42935" FldHeight="22.431881" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FlapsUp" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="653.95911" FldY="80.085297" FldWidth="23.487869" FldHeight="34.583118" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FlapsDown" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="654.77008" FldY="44.348179" FldWidth="23.4879" FldHeight="34.583099" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ThrottlePush" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="482.40948" FldY="77.836273" FldWidth="50" FldHeight="50" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ThrottlePull" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="481.30099" FldY="8.3357763" FldWidth="50" FldHeight="69.497551" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="MixturePush" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="546.35449" FldY="78.142403" FldWidth="50" FldHeight="41.426239" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="MixturePull" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="546.99628" FldY="10.5384" FldWidth="50" FldHeight="68.958847" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="AltOn" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="94.980789" FldY="91.802094" FldWidth="19.63216" FldHeight="22.431881" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="AltOff" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="92.513657" FldY="32.481449" FldWidth="20.58629" FldHeight="22.431881" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Beacon_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="153.44569" FldY="59.136551" FldWidth="15" FldHeight="27.7232" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Beacon_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="153.5934" FldY="29.88818" FldWidth="15" FldHeight="29.4328" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Land_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="175.5995" FldY="59.060379" FldWidth="15" FldHeight="27.7232" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Land_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="174.6106" FldY="30.630011" FldWidth="17.00374" FldHeight="29.24688" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Nav_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="219.1167" FldY="60.11129" FldWidth="15" FldHeight="27.7232" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Nav_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="218.911" FldY="30.391899" FldWidth="15" FldHeight="29.4328" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Taxi_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="196.554" FldY="59.575199" FldWidth="15" FldHeight="27.7232" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Taxi_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="196.6608" FldY="30.232401" FldWidth="15" FldHeight="29.4328" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Strobe_On" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="239.81531" FldY="59.825642" FldWidth="15" FldHeight="27.7232" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Strobe_Off" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="240.2002" FldY="30.57081" FldWidth="15" FldHeight="29.4328" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecDirGyroOffset" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="229.96339" FldY="96.423157" FldWidth="14.70009" FldHeight="31.415501" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncDirGyroBug" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="299.7738" FldY="95.896393" FldWidth="14.49934" FldHeight="29.493959" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecDirGyroBug" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="285.25571" FldY="94.70237" FldWidth="14.76257" FldHeight="31.22965" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncAltimeterBaroPressure" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="328.51959" FldY="196.11771" FldWidth="17.873079" FldHeight="21.00559" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecAltimeterBaroPressure" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="310.52881" FldY="196.38451" FldWidth="17.873079" FldHeight="21.00559" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncVOR_2_Bearing" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="424.8197" FldY="102.4531" FldWidth="17.8731" FldHeight="21.0056" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncVOR_1_Bearing" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="423.27499" FldY="193.5397" FldWidth="17.8731" FldHeight="21.0056" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecVOR_2_Bearing" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="406.8992" FldY="102.5722" FldWidth="17.8731" FldHeight="21.0056" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecVOR_1_Bearing" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="405.37201" FldY="194.004" FldWidth="17.8731" FldHeight="21.0056" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncEGTRefNeedle" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="82.598007" FldY="166.3869" FldWidth="18.753031" FldHeight="15.11339" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecEGTRefNeedle" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="82.831367" FldY="150.9789" FldWidth="18.261709" FldHeight="15.19964" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncDirGyroOffset" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="244.90221" FldY="96.652512" FldWidth="14.44407" FldHeight="30.790319" FldTooltip=""/>
+				<z:row FldGaugeName="Watch" FldRegionName="WatchControl" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="36.214741" FldY="9.3205366" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="Watch" FldRegionName="SelectWatchMode" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="18.75514" FldY="9.0220385" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_ArtificialHorizonFlat" FldRegionName="IncBollPos" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="13.43476" FldY="9.6078157" FldWidth="27.175779" FldHeight="21.72617" FldTooltip=""/>
+				<z:row FldGaugeName="Cessna172_ArtificialHorizonFlat" FldRegionName="DecBollPos" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="39.6404" FldY="9.5502195" FldWidth="25.47739" FldHeight="21.784731" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncCommIntegerPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="80.018509" FldY="11.02175" FldWidth="7.8739619" FldHeight="21.095039" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecCommIntegerPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="51.19833" FldY="10.53758" FldWidth="7.6993299" FldHeight="21.094999" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncCommFloatPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="75.011093" FldY="12.64988" FldWidth="5" FldHeight="17.182501" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecCommFloatPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="58.915249" FldY="12.6158" FldWidth="5" FldHeight="17.182501" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="Comm25KHz" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="64.090401" FldY="11.41829" FldWidth="9.8539829" FldHeight="10.26748" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="Comm50KHz" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="64.933723" FldY="21.50248" FldWidth="9" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncNavIntegerPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="161.5853" FldY="11.31052" FldWidth="7.8739619" FldHeight="21.095039" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncNavFloatPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="156.49809" FldY="13.14341" FldWidth="5" FldHeight="17.182501" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecNavIntegerPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="132.7119" FldY="10.96736" FldWidth="7.6993299" FldHeight="21.094999" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecNavFloatPart" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="140.35159" FldY="12.7441" FldWidth="5" FldHeight="17.182501" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="Nav50KHz" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="145.82471" FldY="21.60952" FldWidth="9.5301151" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="Nav25KHz" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="145.48801" FldY="11.05131" FldWidth="9" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="SwitchNAVActiveSTBY" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="118.4295" FldY="22.858959" FldWidth="10.01156" FldHeight="6.28403" FldTooltip=""/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldRegionName="SwitchCommActiveSTBY" FldIsMouseRegion="True" FldIsHighLight="False" FldCursorRelativePath="" FldX="38.305038" FldY="22.621771" FldWidth="9" FldHeight="6.28403" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit0" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="9.5787268" FldY="11.44722" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit1" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="24.452" FldY="11.61232" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit2" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="38.80069" FldY="11.98134" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit3" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="53.282829" FldY="11.64676" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit4" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="68.623283" FldY="11.9944" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit5" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="82.610161" FldY="11.87259" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit6" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="96.682167" FldY="11.50925" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit7" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="113.3101" FldY="11.84999" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Clear" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="130.4958" FldY="11.32292" FldWidth="10" FldHeight="10" FldTooltip=""/>
+				<z:row FldGaugeName="Cesnna172_Trimmer" FldRegionName="IncreaseTrimAngle" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="12.31492" FldY="3.432869" FldWidth="51.94014" FldHeight="81.425499" FldTooltip=""/>
+				<z:row FldGaugeName="Cesnna172_Trimmer" FldRegionName="DecreaseTrimAngle" FldIsMouseRegion="False" FldIsHighLight="False" FldCursorRelativePath="" FldX="11.92471" FldY="85.497833" FldWidth="51.940102" FldHeight="81.425499" FldTooltip=""/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblGaugeElements">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_12">
+					<s:AttributeType name="FldGaugeName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldElementName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldElementName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldXPosition" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldXPosition">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldYPosition" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldYPosition">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldWidth" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldWidth">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldHeight" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldHeight">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldRotationAngle" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldRotationAngle">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldHasMask" rs:number="8" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldHasMask">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldLayerOrder" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldLayerOrder">
+						<s:datatype dt:type="i2" dt:maxLength="2" rs:precision="5" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFontName" rs:number="10" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldFontName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFontHeight" rs:number="11" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldFontHeight">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFontWeight" rs:number="12" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldFontWeight">
+						<s:datatype dt:type="string" dt:maxLength="10"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsItalic" rs:number="13" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldIsItalic">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsUnderLine" rs:number="14" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldIsUnderLine">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldTextAlign" rs:number="15" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldTextAlign">
+						<s:datatype dt:type="string" dt:maxLength="6"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFrontColorRed" rs:number="16" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldFrontColorRed">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFrontColorGreen" rs:number="17" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldFrontColorGreen">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFrontColorBlue" rs:number="18" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldFrontColorBlue">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldBackColorRed" rs:number="19" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldBackColorRed">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldBackColorGreen" rs:number="20" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldBackColorGreen">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldBackColorBlue" rs:number="21" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldBackColorBlue">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldResourcePath" rs:number="22" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldResourcePath">
+						<s:datatype dt:type="string" dt:maxLength="536870910" rs:long="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldElementName="Drawing Area" FldXPosition="0" FldYPosition="0" FldWidth="7" FldHeight="3" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldXPosition="0" FldYPosition="1" FldWidth="100" FldHeight="100" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="Watch" FldElementName="Drawing Area" FldXPosition="-0.000008" FldYPosition="0" FldWidth="62" FldHeight="64" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="Cessna172_ArtificialHorizonFlat" FldElementName="Horizon" FldXPosition="41" FldYPosition="52" FldWidth="0" FldHeight="39" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="1" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="255" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldElementName="Drawing Area" FldXPosition="6.3966112" FldYPosition="6" FldWidth="158" FldHeight="55" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Digital readout" FldFontHeight="5" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="ForStaticTexts" FldElementName="Drawing Area" FldXPosition="-2.9856429" FldYPosition="-3" FldWidth="164" FldHeight="131" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldElementName="Drawing Area" FldXPosition="5.0999998E-4" FldYPosition="0" FldWidth="173" FldHeight="57" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="Cessna172_Compass" FldElementName="Drawing Area" FldXPosition="0" FldYPosition="0" FldWidth="100" FldHeight="100" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+				<z:row FldGaugeName="Cesnna172_Trimmer" FldElementName="Drawing Area" FldXPosition="0.69499999" FldYPosition="0" FldWidth="79" FldHeight="166" FldRotationAngle="0" FldHasMask="False" FldLayerOrder="0" FldFontName="Arial" FldFontHeight="8" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="255" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldResourcePath=" "/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblElementDisplayLogic">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_13">
+					<s:AttributeType name="FldGaugeName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldElementName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldElementName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldDisplayLogicName" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogic" rs:basecolumn="FldDisplayLogicName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="100"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldGaugeName="Cessna172_IgnitionPanel" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Ignition"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_VOR_ILS_GSNeedle"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_SideSlip"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Airspeed"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Altitude"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_SideSlipAndTurnRate"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Compass"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_VVI"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Oil"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Fuel"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_EGT"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_RPM"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_VacAndAmp"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_VOR_ILS"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_VOR"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="SMG_Cessna172_VorLowerFlag"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="SMG_Cessna172_VorUpperFlag"/>
+				<z:row FldGaugeName="Cessna172_AnalogGauges" FldElementName="Drawing Area" FldDisplayLogicName="SMG_Cessna172_VorUpperFlag2"/>
+				<z:row FldGaugeName="Watch" FldElementName="Drawing Area" FldDisplayLogicName="SMG_Cessna172_Watch"/>
+				<z:row FldGaugeName="Cessna172_ArtificialHorizonFlat" FldElementName="Horizon" FldDisplayLogicName="SMG_ArtificialHorizonFlat"/>
+				<z:row FldGaugeName="KX155ASTO Com Radio" FldElementName="Drawing Area" FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay"/>
+				<z:row FldGaugeName="ForStaticTexts" FldElementName="Drawing Area" FldDisplayLogicName="ForStaticTexts"/>
+				<z:row FldGaugeName="KT76CTSO Transponder" FldElementName="Drawing Area" FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay"/>
+				<z:row FldGaugeName="Cessna172_Compass" FldElementName="Drawing Area" FldDisplayLogicName="SMG_Cessna172_Compass"/>
+				<z:row FldGaugeName="Cesnna172_Trimmer" FldElementName="Drawing Area" FldDisplayLogicName="Cessna172_Trimmer"/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblDisplayLogicMouseRegionEvents">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_14">
+					<s:AttributeType name="FldDisplayLogicName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogic" rs:basecolumn="FldDisplayLogicName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="100"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldElementName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldElementName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeName" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldRegionName" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeRegions" rs:basecolumn="FldRegionName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldOnLeftButtonDown" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicMouseRegionEvents" rs:basecolumn="FldOnLeftButtonDown">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldOnLeftButtonUp" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicMouseRegionEvents" rs:basecolumn="FldOnLeftButtonUp">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldOnRightButtonDown" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicMouseRegionEvents" rs:basecolumn="FldOnRightButtonDown">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldOnLeftDoubleClick" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicMouseRegionEvents" rs:basecolumn="FldOnLeftDoubleClick">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldOnMouseOver" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicMouseRegionEvents" rs:basecolumn="FldOnMouseOver">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Starter" FldOnLeftButtonDown="INPUT_STARTER_MAGNETO_ADD_CMD" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ParkingBrake_On" FldOnLeftButtonDown="PARKING_BRAKE_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ParkingBrake_Off" FldOnLeftButtonDown="PARKING_BRAKE_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_R" FldOnLeftButtonDown="MAGNETO_RIGHT" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_Off" FldOnLeftButtonDown="INPUT_STARTER_MAGNETO_REDUCE_CMD" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_L" FldOnLeftButtonDown="MAGNETO_LEFT" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Magneto_Both" FldOnLeftButtonDown="MAGNETO_BOTH" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FuelPump_On" FldOnLeftButtonDown="FUEL_PUMP_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FuelPump_Off" FldOnLeftButtonDown="FUEL_PUMP_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="BatOn" FldOnLeftButtonDown="BATTERY_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="BatOff" FldOnLeftButtonDown="BATTERY_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FlapsUp" FldOnLeftButtonDown="INPUT_AC_FLAPS_UP_ONE_STEP" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="FlapsDown" FldOnLeftButtonDown="INPUT_AC_FLAPS_DOWN_ONE_STEP" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ThrottlePush" FldOnLeftButtonDown="INPUT_ADD_THROTTLE_CMD_FROM_MOUSE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="ThrottlePull" FldOnLeftButtonDown="INPUT_REDUCE_THROTTLE_CMD_FROM_MOUSE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="MixturePush" FldOnLeftButtonDown="INPUT_ADD_MIX_CMD_FROM_MOUSE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="MixturePull" FldOnLeftButtonDown="INPUT_REDUCE_MIX_CMD_FROM_MOUSE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="AltOn" FldOnLeftButtonDown="ALTERNATOR_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="AltOff" FldOnLeftButtonDown="ALTERNATOR_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Beacon_On" FldOnLeftButtonDown="TURN_BEACON_LIGHT_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Beacon_Off" FldOnLeftButtonDown="TURN_BEACON_LIGHT_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Land_On" FldOnLeftButtonDown="TURN_LAND_LIGHT_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Land_Off" FldOnLeftButtonDown="TURN_LAND_LIGHT_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Nav_On" FldOnLeftButtonDown="TURN_NAV_LIGHT_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Nav_Off" FldOnLeftButtonDown="TURN_NAV_LIGHT_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Taxi_On" FldOnLeftButtonDown="TURN_TAXI_LIGHT_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Taxi_Off" FldOnLeftButtonDown="TURN_TAXI_LIGHT_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Strobe_On" FldOnLeftButtonDown="TURN_STROBE_LIGHT_ON" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Ignition" FldElementName="Drawing Area" FldGaugeName="Cessna172_IgnitionPanel" FldRegionName="Strobe_Off" FldOnLeftButtonDown="TURN_STROBE_LIGHT_OFF" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncAltimeterBaroPressure" FldOnLeftButtonDown="INCREASE_BARO_PRESSURE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecAltimeterBaroPressure" FldOnLeftButtonDown="DECREASE_BARO_PRESSURE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncDirGyroOffset" FldOnLeftButtonDown="INCREASE_DIRECTIONAL_GYRO_OFFSET" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecDirGyroOffset" FldOnLeftButtonDown="DECREASE_DIRECTIONAL_GYRO_OFFSET" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncDirGyroBug" FldOnLeftButtonDown="INCREASE_DIRECTIONAL_GYRO_BUG" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecDirGyroBug" FldOnLeftButtonDown="DECREASE_DIRECTIONAL_GYRO_BUG" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncEGTRefNeedle" FldOnLeftButtonDown="INCREASE_EGT_REFERENCE_NEEDLE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecEGTRefNeedle" FldOnLeftButtonDown="DECREASE_EGT_REFERENCE_NEEDLE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncVOR_2_Bearing" FldOnLeftButtonDown="INCREASE_NAVAID_2_BEARING_SELECTOR" FldOnLeftButtonUp="STOP_INCREASE_NAVAID_2_BEARING_SELECTOR" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="IncVOR_1_Bearing" FldOnLeftButtonDown="INCREASE_EHSI_COURSE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecVOR_2_Bearing" FldOnLeftButtonDown="DECREASE_NAVAID_2_BEARING_SELECTOR" FldOnLeftButtonUp="STOP_DECREASE_NAVAID_2_BEARING_SELECTOR" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_VorUpperFlag" FldElementName="Drawing Area" FldGaugeName="Cessna172_AnalogGauges" FldRegionName="DecVOR_1_Bearing" FldOnLeftButtonDown="DECREASE_EHSI_COURSE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldRegionName="WatchControl" FldOnLeftButtonDown="WATCH_CONTROL_BUTTON_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldRegionName="SelectWatchMode" FldOnLeftButtonDown="TOGGLE_WATCH_MODE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_ArtificialHorizonFlat" FldElementName="Horizon" FldGaugeName="Cessna172_ArtificialHorizonFlat" FldRegionName="IncBollPos" FldOnLeftButtonDown="INCREASE_BOLL_BIRD" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_ArtificialHorizonFlat" FldElementName="Horizon" FldGaugeName="Cessna172_ArtificialHorizonFlat" FldRegionName="DecBollPos" FldOnLeftButtonDown="DECREASE_BOLL_BIRD" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncCommIntegerPart" FldOnLeftButtonDown="INCREASE_COMM_FREQ_INTEGER_PART_BY_1_MHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecCommIntegerPart" FldOnLeftButtonDown="DECREASE_COMM_FREQ_INTEGER_PART_BY_1_MHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncCommFloatPart" FldOnLeftButtonDown="INCREASE_COMM_FREQ_FLOAT_PART" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecCommFloatPart" FldOnLeftButtonDown="DECREASE_COMM_FREQ_FLOAT_PART" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="Comm25KHz" FldOnLeftButtonDown="ADJUST_COMM_FREQUENCY_BY_25_KHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="Comm50KHz" FldOnLeftButtonDown="ADJUST_COMM_FREQUENCY_BY_50_KHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncNavIntegerPart" FldOnLeftButtonDown="INCREASE_NAV_FREQ_INTEGER_PART_BY_1_MHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="IncNavFloatPart" FldOnLeftButtonDown="INCREASE_NAV_FREQ_FLOAT_PART" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecNavIntegerPart" FldOnLeftButtonDown="DECREASE_NAV_FREQ_INTEGER_PART_BY_1_MHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="DecNavFloatPart" FldOnLeftButtonDown="DECREASE_NAV_FREQ_FLOAT_PART" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="Nav50KHz" FldOnLeftButtonDown="ADJUST_NAV_FREQUENCY_BY_50_KHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="Nav25KHz" FldOnLeftButtonDown="ADJUST_NAV_FREQUENCY_BY_25_KHZ" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="SwitchNAVActiveSTBY" FldOnLeftButtonDown="SWITCH_NAV_ACTIVE_STANDBY_FREQUENCIES" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldRegionName="SwitchCommActiveSTBY" FldOnLeftButtonDown="SWITCH_COMM_ACTIVE_STANDBY_FREQUENCIES" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Clear" FldOnLeftButtonDown="KT76CTSO_CLEAR_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit0" FldOnLeftButtonDown="KT76CTSO_DIGIT_0_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit1" FldOnLeftButtonDown="KT76CTSO_DIGIT_1_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit2" FldOnLeftButtonDown="KT76CTSO_DIGIT_2_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit3" FldOnLeftButtonDown="KT76CTSO_DIGIT_3_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit4" FldOnLeftButtonDown="KT76CTSO_DIGIT_4_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit5" FldOnLeftButtonDown="KT76CTSO_DIGIT_5_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit6" FldOnLeftButtonDown="KT76CTSO_DIGIT_6_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldRegionName="KT76CTSO_Digit7" FldOnLeftButtonDown="KT76CTSO_DIGIT_7_PRESSED" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Trimmer" FldElementName="Drawing Area" FldGaugeName="Cesnna172_Trimmer" FldRegionName="IncreaseTrimAngle" FldOnLeftButtonDown="INPUT_ELEVTOR_TRIM_CMD_REDUCE" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+				<z:row FldDisplayLogicName="Cessna172_Trimmer" FldElementName="Drawing Area" FldGaugeName="Cesnna172_Trimmer" FldRegionName="DecreaseTrimAngle" FldOnLeftButtonDown="INPUT_ELEVTOR_TRIM_CMD_ADD" FldOnLeftButtonUp="" FldOnRightButtonDown="" FldOnLeftDoubleClick="" FldOnMouseOver=""/>
+			</rs:data>
+		</xml><xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema" Name="TblDisplayLogicStaticText">
+			<s:Schema id="RowsetSchema">
+				<s:ElementType name="row" content="eltOnly" rs:CommandTimeout="30" rs:updatable="true" rs:ReshapeName="DSRowset1_79">
+					<s:AttributeType name="FldDisplayLogicName" rs:number="1" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogic" rs:basecolumn="FldDisplayLogicName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="100"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldElementName" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGaugeElements" rs:basecolumn="FldElementName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldGaugeName" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblGauges" rs:basecolumn="FldGaugeName" rs:keycolumn="true">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldStaticTextId" rs:number="4" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldStaticTextId" rs:keycolumn="true" rs:autoincrement="true">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldDisplayLogicId" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldDisplayLogicId">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldHagiName" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldHagiName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldTextString" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldTextString">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPriority" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldPriority">
+						<s:datatype dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPositionX" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldPositionX">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldPositionY" rs:number="10" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldPositionY">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFontName" rs:number="11" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldFontName">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFontHeight" rs:number="12" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldFontHeight">
+						<s:datatype dt:type="r4" dt:maxLength="4" rs:precision="7" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFontWeight" rs:number="13" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldFontWeight">
+						<s:datatype dt:type="string" dt:maxLength="255"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsItalic" rs:number="14" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldIsItalic">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsUnderLine" rs:number="15" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldIsUnderLine">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsInverseText" rs:number="16" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldIsInverseText">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldTextAlign" rs:number="17" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldTextAlign">
+						<s:datatype dt:type="string" dt:maxLength="6"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFrontColorRed" rs:number="18" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldFrontColorRed">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFrontColorGreen" rs:number="19" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldFrontColorGreen">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldFrontColorBlue" rs:number="20" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldFrontColorBlue">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldBackColorRed" rs:number="21" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldBackColorRed">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldBackColorGreen" rs:number="22" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldBackColorGreen">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldBackColorBlue" rs:number="23" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldBackColorBlue">
+						<s:datatype dt:type="ui1" dt:maxLength="1" rs:precision="3" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsVerticalText" rs:number="24" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldIsVerticalText">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldIsPolygonalText" rs:number="25" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldIsPolygonalText">
+						<s:datatype dt:type="boolean" dt:maxLength="2" rs:fixedlength="true"/>
+					</s:AttributeType>
+					<s:AttributeType name="FldMetaData" rs:number="26" rs:nullable="true" rs:maydefer="true" rs:writeunknown="true" rs:basetable="TblDisplayLogicStaticText" rs:basecolumn="FldMetaData">
+						<s:datatype dt:type="string" dt:maxLength="536870910" rs:long="true"/>
+					</s:AttributeType>
+					<s:extends type="rs:rowbase"/>
+				</s:ElementType>
+			</s:Schema>
+			<rs:data>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="1" FldDisplayLogicId="21" FldHagiName="UT_Underscore" FldTextString="" FldPriority="0" FldPositionX="12.787" FldPositionY="31.379999" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="2" FldDisplayLogicId="21" FldHagiName="CurrentTime" FldTextString="21:59" FldPriority="0" FldPositionX="26.796829" FldPositionY="26.859791" FldFontName="Digital Readout" FldFontHeight="4.5999999" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="3" FldDisplayLogicId="21" FldHagiName="FT_Underscore" FldTextString="" FldPriority="0" FldPositionX="12.842" FldPositionY="26.268" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="4" FldDisplayLogicId="21" FldHagiName="LT_Underscore" FldTextString="" FldPriority="0" FldPositionX="20.561001" FldPositionY="31.377001" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="5" FldDisplayLogicId="21" FldHagiName="ET_Underscore" FldTextString="" FldPriority="0" FldPositionX="20.091999" FldPositionY="26.252001" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="6" FldDisplayLogicId="21" FldHagiName="UT" FldTextString="UT" FldPriority="0" FldPositionX="12.9145" FldPositionY="31.275999" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="7" FldDisplayLogicId="21" FldHagiName="LT" FldTextString="LT" FldPriority="0" FldPositionX="20.561001" FldPositionY="31.377001" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="8" FldDisplayLogicId="21" FldHagiName="FT" FldTextString="FT" FldPriority="0" FldPositionX="12.842" FldPositionY="26.268" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="9" FldDisplayLogicId="21" FldHagiName="ET" FldTextString="ET" FldPriority="0" FldPositionX="20.091999" FldPositionY="26.252001" FldFontHeight="3" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="10" FldDisplayLogicId="21" FldHagiName="Separator" FldTextString="_______" FldPriority="0" FldPositionX="13.2308" FldPositionY="36.991001" FldFontName="Arial" FldFontHeight="5.4000001" FldFontWeight="BOLD" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_Cessna172_Watch" FldElementName="Drawing Area" FldGaugeName="Watch" FldStaticTextId="11" FldDisplayLogicId="21" FldHagiName="24:1E" FldTextString="24.1E" FldPriority="0" FldPositionX="31.95997" FldPositionY="38.232262" FldFontName="Digital Readout" FldFontHeight="6" FldFontWeight="NORMAL" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="CENTER" FldFrontColorRed="0" FldFrontColorGreen="0" FldFrontColorBlue="0" FldBackColorRed="0" FldBackColorGreen="0" FldBackColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldStaticTextId="12" FldDisplayLogicId="23" FldHagiName="ComActive" FldTextString="122.70" FldPriority="0" FldPositionX="6.9750781" FldPositionY="41.171379" FldFontName="Digital Readout" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldStaticTextId="13" FldDisplayLogicId="23" FldHagiName="ComStandby" FldTextString="122.70" FldPriority="0" FldPositionX="45.364899" FldPositionY="41" FldFontName="Digital Readout" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldStaticTextId="14" FldDisplayLogicId="23" FldHagiName="NavStandby" FldTextString="122.70" FldPriority="0" FldPositionX="119.252" FldPositionY="41" FldFontName="Digital Readout" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldStaticTextId="15" FldDisplayLogicId="23" FldHagiName="NavActive" FldTextString="122.70" FldPriority="0" FldPositionX="81.486687" FldPositionY="41" FldFontName="Digital Readout" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldStaticTextId="16" FldDisplayLogicId="23" FldHagiName="VerticalLine1" FldTextString="|" FldPriority="0" FldPositionX="77.870689" FldPositionY="40.80368" FldFontName="Arial" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KX155ATSO_ComRadioDisplay" FldElementName="Drawing Area" FldGaugeName="KX155ASTO Com Radio" FldStaticTextId="17" FldDisplayLogicId="23" FldHagiName="VerticalLine2" FldTextString="|" FldPriority="0" FldPositionX="77.851112" FldPositionY="34.11216" FldFontName="Arial" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="18" FldDisplayLogicId="24" FldHagiName="Text_1" FldTextString="245   1:30" FldPriority="0" FldPositionX="35.961769" FldPositionY="116.7278" FldFontName="Digital Readout" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="19" FldDisplayLogicId="24" FldHagiName="ADF" FldTextString="ADF" FldPriority="0" FldPositionX="19.70487" FldPositionY="116.6088" FldFontName="Arial" FldFontHeight="3" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="20" FldDisplayLogicId="24" FldHagiName="FLT" FldTextString="FLT" FldPriority="0" FldPositionX="92.337563" FldPositionY="119.2066" FldFontName="Arial" FldFontHeight="3" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="21" FldDisplayLogicId="24" FldHagiName="GPS_1" FldTextString="--.-nn| PWF        245" FldPriority="0" FldPositionX="32.972961" FldPositionY="279.77249" FldFontName="Arial" FldFontHeight="4" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="22" FldDisplayLogicId="24" FldHagiName="GPS_2" FldTextString="------|SPORTYS" FldPriority="0" FldPositionX="32.927399" FldPositionY="273.68799" FldFontName="Arial" FldFontHeight="4" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="23" FldDisplayLogicId="24" FldHagiName="GPS_3" FldTextString="---Leg|   N 39°04.60'" FldPriority="0" FldPositionX="32.812599" FldPositionY="267.69501" FldFontName="Arial" FldFontHeight="4" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="ForStaticTexts" FldElementName="Drawing Area" FldGaugeName="ForStaticTexts" FldStaticTextId="24" FldDisplayLogicId="24" FldHagiName="GPS_4" FldTextString="NDB 1 |   W 84°12.93'" FldPriority="0" FldPositionX="32.859798" FldPositionY="261.668" FldFontName="Arial" FldFontHeight="4" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="(null)"/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldStaticTextId="25" FldDisplayLogicId="25" FldHagiName="TransponderCode" FldTextString="" FldPriority="0" FldPositionX="84.384697" FldPositionY="34.208" FldFontName="Arial" FldFontHeight="5" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="&lt;StaticText&gt;&lt;IsStaticText&gt;false&lt;/IsStaticText&gt;&lt;IsBitmap&gt;false&lt;/IsBitmap&gt;&lt;IsUsingATT&gt;true&lt;/IsUsingATT&gt;&lt;IsShowByATT&gt;false&lt;/IsShowByATT&gt;&lt;IsAdvancedString&gt;false&lt;/IsAdvancedString&gt;&lt;UsingATT&gt;ATT_KT76CTSO_DISPLAY_CODE&lt;/UsingATT&gt;&lt;BitmapName&gt;&lt;/BitmapName&gt;&lt;BitmapHeight&gt;0.000000&lt;/BitmapHeight&gt;&lt;BitmapWidth&gt;0.000000&lt;/BitmapWidth&gt;&lt;ShowByATT&gt;&lt;/ShowByATT&gt;&lt;AdvancedString&gt;&lt;/AdvancedString&gt;&lt;RangeLow&gt;0.000000&lt;/RangeLow&gt;&lt;RangeHigh&gt;0.000000&lt;/RangeHigh&gt;&lt;StringValue&gt;&lt;/StringValue&gt;&lt;BoolValue&gt;&lt;/BoolValue&gt;&lt;UsingATTUnit&gt;-1&lt;/UsingATTUnit&gt;&lt;ShowByATTUnit&gt;-1&lt;/ShowByATTUnit&gt;&lt;/StaticText&gt;&#xA;"/>
+				<z:row FldDisplayLogicName="SMG_KT79CTSO_TransponderDisplay" FldElementName="Drawing Area" FldGaugeName="KT76CTSO Transponder" FldStaticTextId="26" FldDisplayLogicId="25" FldHagiName="ON" FldTextString="ON" FldPriority="0" FldPositionX="70.018097" FldPositionY="36.858299" FldFontName="Arial" FldFontHeight="3" FldIsItalic="False" FldIsUnderLine="False" FldIsInverseText="False" FldTextAlign="LEFT" FldFrontColorRed="200" FldFrontColorGreen="50" FldFrontColorBlue="0" FldIsVerticalText="False" FldIsPolygonalText="False" FldMetaData="&lt;StaticText&gt;&lt;IsStaticText&gt;true&lt;/IsStaticText&gt;&lt;IsBitmap&gt;false&lt;/IsBitmap&gt;&lt;IsUsingATT&gt;false&lt;/IsUsingATT&gt;&lt;IsShowByATT&gt;false&lt;/IsShowByATT&gt;&lt;IsAdvancedString&gt;false&lt;/IsAdvancedString&gt;&lt;UsingATT&gt;&lt;/UsingATT&gt;&lt;BitmapName&gt;&lt;/BitmapName&gt;&lt;BitmapHeight&gt;0.000000&lt;/BitmapHeight&gt;&lt;BitmapWidth&gt;0.000000&lt;/BitmapWidth&gt;&lt;ShowByATT&gt;&lt;/ShowByATT&gt;&lt;AdvancedString&gt;&lt;/AdvancedString&gt;&lt;RangeLow&gt;0.000000&lt;/RangeLow&gt;&lt;RangeHigh&gt;0.000000&lt;/RangeHigh&gt;&lt;StringValue&gt;&lt;/StringValue&gt;&lt;BoolValue&gt;&lt;/BoolValue&gt;&lt;UsingATTUnit&gt;-1&lt;/UsingATTUnit&gt;&lt;ShowByATTUnit&gt;-1&lt;/ShowByATTUnit&gt;&lt;/StaticText&gt;&#xA;"/>
+			</rs:data>
+		</xml></Data></TFD>
